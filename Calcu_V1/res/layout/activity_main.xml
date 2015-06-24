@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/oper1" />
+    
+    <EditText
+        android:id="@+id/ET_Oper1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal|numberSigned" 
+        />
+	
+	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/oper2" />
+	
+    <EditText
+        android:id="@+id/ET_Oper2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal|numberSigned" 
+        />
+
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+        <Button 
+            android:id="@+id/Bt_Suma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/suma" />
+        
+        <Button
+            android:id="@+id/Bt_Resta" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resta" />
+        
+        <Button 
+            android:id="@+id/Bt_Multi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/multi" />
+        
+        <Button 
+            android:id="@+id/Bt_Divi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/divi" />
+        
+    </LinearLayout>
+    
+	<TextView 
+	    android:id="@+id/TV_Resul"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" />
+
+</LinearLayout>
